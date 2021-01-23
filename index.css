@@ -349,7 +349,7 @@ body:not(.user-is-tabbing) a:focus {
   margin-right: var(--gutter-medium);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .nav {
     justify-content: center;
   }
@@ -425,9 +425,10 @@ body:not(.user-is-tabbing) a:focus {
   font-size: var(--font-size-medium);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .header {
     text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
   }
 
   .header__text p {
